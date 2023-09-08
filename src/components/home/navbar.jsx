@@ -3,7 +3,7 @@ import React from 'react'
 import { logo } from '../../assets'
 import { Link } from 'react-router-dom'
 
-function Main() {
+function Navbar() {
   return (
     <Box h={'8vh'} w={'100%'} bg={'#D2E6E4'}>
         <Box display={'flex'} alignItems={'center'} minH={'8vh'} justifyContent={'space-between'} maxW={'80%'} m={'auto'}>
@@ -20,4 +20,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Navbar
