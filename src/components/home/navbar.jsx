@@ -9,8 +9,8 @@ function Navbar() {
         <Box display={'flex'} alignItems={'center'} minH={'10vh'} justifyContent={'space-between'} maxW={'80%'} m={'auto'}>
             <Box><Image src={logo} /></Box>
             <Box fontWeight={'700'} gap={'3em'} display={'flex'} alignItems={'center'} color={'#252641'} fontSize={'20px'}>
-                <Link><Text>Asosiy</Text></Link>
-                <Link><Text>Biz haqimizda</Text></Link>
+                <Link to={'/'}><Text>Asosiy</Text></Link>
+                <Link to={'/about'}><Text>Biz haqimizda</Text></Link>
                 <Link><Text>Loihalar</Text></Link>
                 <Link><Text>Biz bilan a’loqa</Text></Link>
             </Box>
