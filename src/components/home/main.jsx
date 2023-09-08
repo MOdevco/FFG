@@ -3,7 +3,7 @@ import React from 'react'
 
 function Main() {
   return (
-    <Box w={'100%'}>
+    <Box w={'100%'}  h={'70vh'} bg={'#D2E6E4'}>
       <Box>
 
       </Box>

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <Box h={'8vh'} w={'100%'} bg={'#D2E6E4'}>
-        <Box display={'flex'} alignItems={'center'} minH={'8vh'} justifyContent={'space-between'} maxW={'80%'} m={'auto'}>
+    <Box h={'10vh'} w={'100%'} bg={'#D2E6E4'}>
+        <Box display={'flex'} alignItems={'center'} minH={'10vh'} justifyContent={'space-between'} maxW={'80%'} m={'auto'}>
             <Box><Image src={logo} /></Box>
             <Box fontWeight={'700'} gap={'3em'} display={'flex'} alignItems={'center'} color={'#252641'} fontSize={'20px'}>
                 <Link><Text>Asosiy</Text></Link>
