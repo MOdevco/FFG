@@ -76,7 +76,7 @@ function Main() {
       </Box>
       
       <Box>
-        <Aboutcard name={"Muhammadali Anvarov"} br 
+        <Aboutcard name={"Muhammadali Anvarov"}
         title={'Frontend dasturchi'} text={'Texnalogiya React js +'} p={'Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan..'}  button={'Murojat uchun'} />
       </Box>
     </Box>
