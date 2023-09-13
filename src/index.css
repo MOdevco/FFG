@@ -8,4 +8,16 @@
   background: #fff;
   box-shadow: 0px 4px 9px -1px rgba(0, 0, 0, 0.5);
 }
+.shadow {
+  box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+}
 
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.shadow {
+  background: #fff;
+  box-shadow: 0px 4px 9px 6px rgba(0, 0, 0, 0.5);
+  height: 661px;
+}
