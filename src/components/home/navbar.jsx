@@ -28,7 +28,7 @@ function Navbar() {
                     <Link to={'/'}><Text className='animate'>Asosiy</Text></Link>
                     <Link to={'/about'}><Text className='animate'>Biz haqimizda</Text></Link>
                     <Link to={'/loyihalar'}><Text className='animate'>Loihalar</Text></Link>
-                    <Link><Text className='animate'>Biz bilan a’loqa</Text></Link>
+                    <Link to={'/aloqa'}><Text className='animate'>Biz bilan a’loqa</Text></Link>
                 </Box>
                 <Box><Button color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
             </Box>
@@ -52,8 +52,8 @@ function Navbar() {
               <Box pt={'20px'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'} gap={'1rem'}>
                     <Link to={'/'}><Text>Asosiy</Text></Link>
                     <Link to={'/about'}><Text>Biz haqimizda</Text></Link>
-                    <Link><Text>Loihalar</Text></Link>
-                    <Link><Text>Biz bilan a’loqa</Text></Link>
+                    <Link to={'/loyihalar'}><Text>Loihalar</Text></Link>
+                    <Link to={'/aloqa'}><Text>Biz bilan a’loqa</Text></Link>
                 </Box>
                 <Box pt={'20px'} display={'flex'} alignItems={'center'} justifyContent={'center'}><Button color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
               </DrawerBody>
