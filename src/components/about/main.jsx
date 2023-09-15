@@ -18,7 +18,7 @@ function Main() {
       >
         <Box display={"flex"} flexDirection={"column"}>
           <Heading position={"relative"}>      
-            FULL FORCE GROUP KOMPANIYASI TARIXI
+            DATA SPIN KOMPANIYASI TARIXI
             <Image
               position={"absolute"}
               right={"33%"}
@@ -67,7 +67,7 @@ function Main() {
       <Box  pt={'50px'}>
     <Box textAlign={'center'} mb={'71px'} color={"#0B7077"} fontSize={"40px"}   fontWeight={"700"} >
       <Box display={'flex'} flexDirection={'column'}>
-        <Heading position={'relative'}> FULL FORCE GROUP KOMPANIYASI TARIXI
+        <Heading position={'relative'}> DATA SPIN KOMPANIYASI TARIXI
           <Image position={'absolute'}    bottom={-5} right={'35%'} mt={'30px'}   src={Vector}/> </Heading>
       </Box>
     </Box>
