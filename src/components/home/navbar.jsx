@@ -23,7 +23,7 @@ function Navbar() {
 
         <Box h={'10vh'} w={'100%'} bg={'#D2E6E4'}>
             <Box display={'flex'} alignItems={'center'} minH={'10vh'} justifyContent={'space-between'} maxW={{'2xl':'80%', base: '80%', md: '90%', lg: '80%'}} m={'auto'}>
-                <Box><Image src={logo} /></Box>
+                <Box className='imgrotate'><Image src={logo} /></Box>
                 <Box fontWeight={'700'} gap={{'2xl':'3em', md: '1rem'}} display={'flex'} alignItems={'center'} color={'#252641'} fontSize={{'2xl':'20px', lg: '17px'}}>
                     <Link to={'/'}><Text className='animate'>Asosiy</Text></Link>
                     <Link to={'/about'}><Text className='animate'>Biz haqimizda</Text></Link>

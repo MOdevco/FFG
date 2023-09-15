@@ -4,6 +4,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Loyihalar from './pages/loyihalar'
 import Aloqa from './pages/aloqa'
+import Error404 from './pages/error404'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/about' element={<About />}  />
         <Route path='/loyihalar' element={<Loyihalar />}  />
         <Route path='/aloqa' element={<Aloqa />}  />
+        <Route path='*' element={<Error404 />}  />
       </Routes>
     </Box>
   )

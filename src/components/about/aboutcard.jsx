@@ -4,10 +4,10 @@ import { Vector, stiker } from '../../assets'
 
 function Aboutcard({name, title, text, p,  }) {
   return (
-    <Box borderRadius={'14px'}  border={'none'} w={{md:'310px', base: '90%'}} h={'470px'} >
-    <Box borderRadius={'14px'} w={'296px'}>
+    <Box borderRadius={'14px'}  border={'none'} w={{md:'310px', base: '100%'}} h={'470px'} >
+    <Box className='loyihacards' borderRadius={'14px'} w={'296px'}>
         <>
-        <Box position={'relative'}>
+        <Box>
             <Image borderTopRadius={'14px'} src={stiker} />
         </Box>
         <Box boxShadow='xs' borderRadius={'14px'}>

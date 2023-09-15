@@ -2,8 +2,8 @@ import { Box, Button, Image, Text } from '@chakra-ui/react'
 
 function CardProps({image, info, text, date, price, noprice, img, number, bg}) {
   return (
-    <Box borderRadius={'14px'}  border={'none'} w={{md:'310px', base: '90%'}} h={'470px'} >
-        <Box borderRadius={'14px'} w={'296px'}>
+    <Box borderRadius={'14px'}  border={'none'} w={{md:'310px', base: '100%'}} h={'470px'} >
+        <Box className='loyihacards' borderRadius={'14px'} w={'296px'}>
             <>
             <Box position={'relative'}>
                 <Image borderTopRadius={'14px'} src={image} />

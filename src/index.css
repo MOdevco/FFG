@@ -7,7 +7,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.imgrotate:hover{
+  transform: rotate(20deg);
+  transition: .4s;
+}
 
+
+.texts::-webkit-scrollbar{
+  display: none;
+}
+.texts{
+  scroll-behavior: smooth;
+}
 
 .yonalish:hover{
     transition: .4s;
@@ -69,7 +80,6 @@
     text-align: center;
     font-size: 18px;
   
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,9 +93,7 @@
   
 
 
-.border{
 
-}
 
 .rotate{
     transform: rotate(-40deg);
@@ -125,12 +133,23 @@
 }
 
 
-/* @media (max-width: 1020px) {
-  .cardres{
-    margin-top:-100px !important ;
+@media (max-width: 316px) {
+  .maxmini{
+    width: 100% !important;
+    padding: 0 10px !important;
   }
-  
-} */
+  .swipercard{
+    width: 100%;
+    padding: 0 10px !important;
+    font-size: 15px !important;
+  }
+  .loyihacards{
+    width: 100% !important;
+  }
+  .aboutcard{
+    width: 100% !important;
+  }
+}
 @media (max-width:767px) {
   .swiperimg{
     width: 60% !important;
@@ -141,16 +160,72 @@
 } 
 
 
+
+
+
+
 @media (min-width:1280px) {
   .date{
     top: 25vh !important;
     right: 26vh !important;
   }
   .progress{
-    top: 18vh !important;
+    top: 10vh !important;
     right: 10vh !important;
   }
 }
+@media (min-width:1100px) {
+  .date{
+    top: 26vh !important;
+    right: 25vh !important;
+  }
+  .right{
+    display: flex !important;
+  }
+  .main{
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .progress{
+    top: 19vh !important;
+    right: 9vh !important;
+  }
+  .holat{
+    height: 45vh !important;
+  }
+  .shartnoma{
+    height: 60vh !important;
+  }
+  .hizmat{
+    height: 100% !important;
+    padding-bottom: 50px !important;
+  }
+  .loyihalar{
+    height: 100% !important;
+  }
+}
+@media (min-width:1300px) {
+  .date{
+    top: 25vh !important;
+    right:25vh !important;
+  }
+  .right{
+    display: flex !important;
+  }
+  .main{
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .progress{
+    top: 18vh !important;
+    right: 10vh !important;
+  }
+  .border{
+    height: 100% !important;
+    padding-bottom:40px !important;
+  }
+}
+
 @media (min-width:1440px) {
   .date{
     top: 26vh !important;
@@ -159,6 +234,19 @@
   .progress{
     top: 19vh !important;
     right: 12vh !important;
+  }
+  .holat{
+    height: 45vh !important;
+  }
+  .shartnoma{
+    height: 45vh !important;
+  }
+  .hizmat{
+    height: 100% !important;
+    padding-bottom: 50px !important;
+  }
+  .loyihalar{
+    height: 100% !important;
   }
 }
 
@@ -172,6 +260,12 @@
     right: 13vh !important;
   }
 }
+
+@media (min-width:1536px) {
+  .cardres{
+    min-height: 28.5vh !important;
+  }
+}
 @media (min-width:1540px) {
   .date{
     top: 34vh !important;
@@ -181,8 +275,20 @@
     top: 27vh !important;
     right: 17vh !important;
   }
+  
 }
-@media (min-width:1700px) {
+@media (min-width:1890px) {
+  .date{
+    top: 34vh !important;
+    right:40vh !important;
+  }
+  .progress{
+    top: 27vh !important;
+    right: 19vh !important;
+  }
+  
+}
+@media (min-width:1900px) {
   .date{
     top: 45vh !important;
     right: 57vh !important;
@@ -191,6 +297,34 @@
     top: 35vh !important;
     right: 27vh !important;
   }
+  .cardres{
+    min-height: 40vh !important;
+  }
+}
+@media (min-width:1940px) {
+  .date{
+    top: 34vh !important;
+    right: 40vh !important;
+  }
+  .progress{
+    top: 27vh !important;
+    right: 20vh !important;
+  }
+  .cardres{
+    min-height: 28.5vh !important;
+  }
+  .holat{
+    height: 40vh !important;
+  }
+  .shartnoma{
+    height: 40vh !important;
+  }
+  .hizmat{
+    height: 50vh !important;
+  }
+  .loyihalar{
+    height: 100% !important;
+  }
 }
 
 @media (min-width: 500px) {
@@ -198,77 +332,3 @@
     width: 40% !important;
   }
 }
-/* @media (min-width :500px) {
-  .swiperimg{
-    width: 40% !important;
-  }
-}
-@media (min-width :400px) {
-  .swiperimg{
-    width: 50% !important;
-  }
-}
-@media (min-width :992px) {
-  .cardres{
-    margin-top: -90px !important;
-  }
-  .cardcard{
-    padding-top: 0 !important;
-    height: 100% !important;
-  }
-  
-}
-@media (min-width :1280px) {
-  .woman{
-    margin-top: -200px !important;
-  }
-  .date{
-    display: none !important;
-  }
-  .progress{
-    display: none !important;
-  }
-  .holat{
-    height: 40vh !important;
-  }
-  .shartnoma{
-    height: 50vh !important
-  }
-  
-
-}
-
-@media (max-width: 1540px) {
-  .loyihalar{
-    height: 100% !important;
-  }
-}
-@media (max-width:767px) {
-  .swiperimg{
-    width: 60% !important;
-  }
-  .swiperw{
-    width: 400px !important;
-  }
-}
-
-@media (max-width: 700px) {
-  .img1{
-    width: 40% !important;
-  }
-}
-@media (min-width: 370px) {
-  .img1{
-    width: 70% !important;
-  }
-  .form{
-    width: 100% !important;
-    margin: auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-  }
-  .inp1{
-    width: 100% !important;
-  }
-}
- */
