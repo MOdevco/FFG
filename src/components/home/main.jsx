@@ -7,8 +7,8 @@ function Main() {
   return (
     <Box>
       <Box display={{base: 'flex', md: 'flex'}}>
-      <Box className='basic' pt={{'2xl': '53px', lg: '50px', xl: '37px'}} w={'100%'}  h={'100%'} pb={{base:'40px', xl: '0'}} bg={'#D2E6E4'}>
-      <Box className='main' flexDirection={{md: 'column-reverse',xl: 'row', '2xl': 'row'}} w={'80%'} m={'auto'} display={'flex'} justifyContent={'space-between'}>
+      <Box className='basic' pt={{'2xl': '100px', lg: '100px', xl: '85px'}} w={'100%'}  h={'100%'} pb={{base:'40px', xl: '0'}} bg={'#D2E6E4'}>
+      <Box className='main' flexDirection={{md: 'column-reverse',xl: 'row', '2xl': 'row'}} w={'80%'} m={'auto'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
         <Box pt={{base:'40px', xl: '60px', '2xl': '40px'}} display={'flex'} flexDirection={'column'} gap={{lg: '1rem'}}>
           <Box className='maxmini' fontWeight={'500'} w={'270px'} h={'38px'} display={'flex'} alignItems={'center'} justifyContent={'center'} borderRadius={'10px'} bg={'#fff'}><Text>Biz bilan loihangizni boshlang</Text></Box>
           <Text className='maintext' maxW={{'2xl': '500px',}} fontWeight={{md: '500', lg: '700'}} fontSize={{md: '50px', '2xl': '62px', lg: '40px', base: '30px'}} color={'#0B7077'} pt={{base: '10px', md: '0'}}>DataSpin

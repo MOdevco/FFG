@@ -4,8 +4,8 @@ import { stiker } from '../../assets'
 
 function Aboutcard({name, title, text, p,  }) {
   return (
-    <Box borderRadius={'14px'}  border={'none'} w={{md:'310px', base: '100%'}} h={'470px'} >
-    <Box className='loyihacards' borderRadius={'14px'} w={'296px'}>
+    <Box borderRadius={'14px'} bg={'#fff'}  border={'none'} w={{md:'310px',}} h={'425px'} >
+    <Box className='loyihacards' borderRadius={'14px'} w={'310px'}>
         <>
         <Box>
             <Image borderTopRadius={'14px'} src={stiker} />
@@ -25,7 +25,7 @@ function Aboutcard({name, title, text, p,  }) {
     
         <Box pb={'10px'} pt={'25px'} w={'90%'} m={'auto'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
             <Box>
-                <Button w={'123px'} h={'34px'} p={'10px'} color={'#fff'} bg={'#0B7077'}>Murojat uchun</Button>
+                <Button className='btn' _hover={''} w={'135px'} h={'37px'} p={'10px'} color={'#fff'} bg={'#0B7077'}>Murojat uchun</Button>
             </Box>
         </Box>
        

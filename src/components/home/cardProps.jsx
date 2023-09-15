@@ -25,7 +25,7 @@ function CardProps({image, info, text, date, price, noprice, img, number, bg}) {
             <Box pb={'10px'} pt={'25px'} w={'90%'} m={'auto'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
                 <Box><Text fontWeight={'700'} color={'#FD661F'}>$ {price} <span style={{textDecoration: 'line-through', color:'#230F0F'}}>{noprice}</span></Text></Box>
                 <Box>
-                    <Button w={'71px'} h={'34px'} p={'10px'} color={'#fff'} bg={'#0B7077'}>Kirish</Button>
+                    <Button className='btn' _hover={''} _active={''} w={'71px'} h={'34px'} p={'10px'} color={'#fff'} bg={'#0B7077'}>Kirish</Button>
                 </Box>
             </Box>
             </Box>
