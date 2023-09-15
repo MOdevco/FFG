@@ -17,18 +17,18 @@ function Form() {
                     <Box display={{xl:'flex', base :'none'}} flexDirection={{base: 'column', md: 'row'}} gap={{'2xl' :'3rem'}} justifyContent={'center'} alignItems={'center'}>
                     <Box display={'flex'} flexDirection={'column'} gap={{md: '2rem', base: '1rem'}}>
                     <FormLabel w={'100%'} display={'flex'} flexDirection={'column'} fontSize={'20px'} fontWeight={'500'}>Ismingiz
-                        <Input bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled' placeholder='Ismingiz'/>
+                        <Input className='forminp' bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled' placeholder='Ismingiz'/>
                     </FormLabel>
                     <FormLabel display={'flex'} flexDirection={'column'} fontSize={'20px'} fontWeight={'500'}>Telefon nomer
-                        <Input bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled' placeholder='+998'/>
+                        <Input className='forminp' bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled' placeholder='+998'/>
                     </FormLabel>
                     </Box>
                     <Box display={'flex'} flexDirection={'column'} gap={{md: '2rem'}}>
                     <FormLabel display={'flex'} flexDirection={'column'} fontSize={'20px'} fontWeight={'500'}>Familiya
-                        <Input bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled'  placeholder='Familiya'/>
+                        <Input className='forminp' bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled'  placeholder='Familiya'/>
                     </FormLabel>
                     <FormLabel display={'flex'} flexDirection={'column'} fontSize={'20px'} fontWeight={'500'}>Mavzu
-                        <Input bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled'  placeholder='Mavzu'/>
+                        <Input className='forminp' bg={'#F5F5F5'} pl={'10px'} h={'54px'} w={{'2xl':'650px', base: '100%', xl :'450px', md: '100%'}} variant='unstyled'  placeholder='Mavzu'/>
                     </FormLabel>
                     </Box>
 

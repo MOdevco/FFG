@@ -4,7 +4,7 @@ import { girl, starr } from '../../assets'
 
 function Card() {
   return (
-    <Box pt={{md:'110px', lg: '80px', base: '50px'}} className='bg cardc' w={'100%'} minH={'100%'} pb={{md :'40px', '2xl': '0'}}>
+    <Box pt={{md:'110px', lg: '80px', base: '50px',}} className='bg cardc' w={'100%'} minH={'100%'} pb={{md :'40px', '2xl': '0'}}>
         <Box w={{md: '80%', base: '90%'}} m={'auto'}>
             <Box h={{md:'400px', sm: '100%'}} py={{base: '30px', md: '0'}} bg={'#DF1C25'} borderRadius={'16px'}>
                 <Box w={'90%'} m={'auto'} display={'flex'} alignItems={'center'} justifyContent={{md:'flex-start', base: 'column', lg: 'space-between'}}>
