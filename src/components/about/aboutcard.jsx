@@ -1,6 +1,6 @@
 import { Box, Button, Text,  Image } from '@chakra-ui/react'
 import React from 'react'
-import { Vector, stiker } from '../../assets'
+import { stiker } from '../../assets'
 
 function Aboutcard({name, title, text, p,  }) {
   return (
