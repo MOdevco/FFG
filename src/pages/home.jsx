@@ -12,7 +12,7 @@ import Footer from '../components/home/footer'
 function Home() {
   return (
     <div>
-        <Navbar />
+        <Navbar bg={'#D2E6E4'} />
         <Main />
         <Loyihalar />
         <Hizmatlar />

@@ -8,8 +8,8 @@
 }
 
 .imgrotate:hover{
-  transform: rotate(20deg);
-  transition: .4s;
+  transform: rotate(12deg);
+  transition: .3s;
 }
 
 

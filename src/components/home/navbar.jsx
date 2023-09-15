@@ -14,16 +14,16 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 
-function Navbar() {
+function Navbar({bg}) {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [placement, setPlacement] = React.useState('right')
   return (
     <Box>
-      <Box  display={{md: 'flex', base: 'none'}}>
+      <Box display={{md: 'flex', base: 'none'}}>
 
-        <Box h={'10vh'} w={'100%'} bg={'#D2E6E4'}>
+        <Box h={'10vh'} w={'100%'} bg={bg}>
             <Box display={'flex'} alignItems={'center'} minH={'10vh'} justifyContent={'space-between'} maxW={{'2xl':'80%', base: '80%', md: '90%', lg: '80%'}} m={'auto'}>
-                <Box className='imgrotate'><Image src={logo} /></Box>
+                <Link to={'/'} className='imgrotate'><Image src={logo} /></Link>
                 <Box fontWeight={'700'} gap={{'2xl':'3em', md: '1rem'}} display={'flex'} alignItems={'center'} color={'#252641'} fontSize={{'2xl':'20px', lg: '17px'}}>
                     <Link to={'/'}><Text className='animate'>Asosiy</Text></Link>
                     <Link to={'/about'}><Text className='animate'>Biz haqimizda</Text></Link>

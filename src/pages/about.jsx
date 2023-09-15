@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/about/navbar'
 import Main from '../components/about/main'
+import Navbar from '../components/home/navbar'
 
 
 function About() {
   return (
     <div>
-      <Navbar />
+      <Navbar bg={'#FBFBFB'}  />
       <Main/>
     
     </div>

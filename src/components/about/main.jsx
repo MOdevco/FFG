@@ -73,25 +73,30 @@ function Main() {
     </Box>
     <Button p={'20px'}>Frontend Dasturchilar</Button>
     
+      <Box display={'flex'} flexDirection={'column'} gap={{'2xl': '4rem', md: '2rem', base: '1rem'}}>
       <Box display={'flex'} className="wrapper" flexWrap={'wrap'} justifyContent={{'2xl': 'space-between'}} mt={'18px'}   gap={'34px'}  alignItems={'start'}>
         <Aboutcard    name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
         <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
         <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
         <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
       </Box>
-      <Box >
-        <Button>Beckend dasturchilar</Button>
-        <Box display={'flex'}  flexWrap={'wrap'} justifyContent={'start'} mt={'18px'}   gap={'34px'}  alignItems={'start'}>
-        <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
-        <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
+        <Box>
+
+          <Button w={'200px'}>Beckend dasturchilar</Button>
+          <Box display={'flex'}  flexWrap={'wrap'} justifyContent={'start'} mt={'18px'}   gap={{'2xl':'6rem', base: '1rem', md: '2rem'}}  alignItems={'start'}>
+          <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
+          <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
+          </Box>
         </Box>
         <Box>
-          <Button>Flutter dasturchilar</Button>
-          <Box display={'flex'}  flexWrap={'wrap'} justifyContent={'start'} mt={'18px'}   gap={'34px'}  alignItems={'start'}>
-        <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
-        <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
-        <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
+          <Box display={'flex'} flexDirection={'column'} >
+            <Button w={'200px'}>Flutter dasturchilar</Button>
+            <Box  display={'flex'}  flexWrap={'wrap'} justifyContent={'start'} mt={'18px'} gap={{'2xl':'6rem', base: '1rem', md:'2rem'}}  alignItems={'start'}>
+          <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
+          <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
+          <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
 
+            </Box>
           </Box>
         </Box>
 
