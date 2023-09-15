@@ -25,7 +25,7 @@ function Aboutcard({name, title, text, p,  }) {
     
         <Box pb={'10px'} pt={'25px'} w={'90%'} m={'auto'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
             <Box>
-                <Button w={'135px'} h={'37px'} p={'10px'} color={'#fff'} bg={'#0B7077'}>Murojat uchun</Button>
+                <Button className='btn' _hover={''} w={'135px'} h={'37px'} p={'10px'} color={'#fff'} bg={'#0B7077'}>Murojat uchun</Button>
             </Box>
         </Box>
        

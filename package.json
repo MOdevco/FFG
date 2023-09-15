@@ -21,6 +21,7 @@
     "react-device": "^0.8.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-native-device-info": "^10.9.0",
     "react-router-dom": "^6.15.0",
     "react-slider-swiper": "^2.0.6",
     "swiper": "^10.2.0"

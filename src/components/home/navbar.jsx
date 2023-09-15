@@ -19,9 +19,9 @@ function Navbar({bg}) {
   const [placement, setPlacement] = React.useState('right')
   return (
     <Box>
-      <Box display={{md: 'flex', base: 'none'}}>
+      <Box display={{md: 'flex', base: 'none'}} w={'100%'} bg={bg} position={'fixed'} zIndex={'999'}>
 
-        <Box h={'10vh'} w={'100%'} bg={bg}>
+        <Box h={'10vh'} w={'100%'} bg={bg} >
             <Box display={'flex'} alignItems={'center'} minH={'10vh'} justifyContent={'space-between'} maxW={{'2xl':'80%', base: '80%', md: '90%', lg: '80%'}} m={'auto'}>
                 <Link to={'/'} className='imgrotate'><Image src={logo} /></Link>
                 <Box fontWeight={'700'} gap={{'2xl':'3em', md: '1rem'}} display={'flex'} alignItems={'center'} color={'#252641'} fontSize={{'2xl':'20px', lg: '17px'}}>
@@ -30,7 +30,7 @@ function Navbar({bg}) {
                     <Link to={'/loyihalar'}><Text className='animate'>Loihalar</Text></Link>
                     <Link to={'/aloqa'}><Text className='animate'>Biz bilan a’loqa</Text></Link>
                 </Box>
-                <Box><Button color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
+                <Box><Button _hover={''} className='btn' color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
             </Box>
         </Box>
       </Box>

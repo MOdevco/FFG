@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
-import { Vector } from "../../assets";
+import { Vector, line } from "../../assets";
 import Aboutcard from "./aboutcard";
 import Teampicture from "./teampicture";
 
 function Main() {
   return (
-    <Box className="bg" w={'100%'}>
+    <Box className="bg" w={'100%'} pb={'50px'}>
     
     <Box pt={'50px'} w={{'2xl': '80%', md: '90%', base: '90%'}} m={'auto'}>
       <Box
@@ -17,14 +17,11 @@ function Main() {
         mb={"71px"}
       >
         <Box display={"flex"} flexDirection={"column"}>
-          <Heading position={"relative"}>      
+          <Heading color={'#FD661F'}>      
             FULL FORCE GROUP KOMPANIYASI TARIXI
-            <Image
-              position={"absolute"}
-              right={"33%"}
-              mt={"10px"}
-              src={Vector}
-            />
+            <Box className='line' w={{'2xl': '73%', base: '80%', md: '75%'}} display={{base: 'none',md :'none', '2xl':'flex'}}  alignItems={'flex-end'} justifyContent={'flex-end'}>
+                    <Image src={line} />
+                </Box>
           </Heading>
         </Box>
       </Box>
@@ -71,7 +68,7 @@ function Main() {
           <Image position={'absolute'}    bottom={-5} right={'35%'} mt={'30px'}   src={Vector}/> </Heading>
       </Box>
     </Box>
-    <Button p={'20px'}>Frontend Dasturchilar</Button>
+    <Button className="btn" _hover={''} p={'20px'}>Frontend Dasturchilar</Button>
     
       <Box display={'flex'} flexDirection={'column'} gap={{'2xl': '4rem', md: '2rem', base: '1rem'}}>
       <Box display={'flex'} className="wrapper" flexWrap={'wrap'} justifyContent={{'2xl': 'space-between'}} mt={'18px'}   gap={'34px'}  alignItems={'start'}>
@@ -82,7 +79,7 @@ function Main() {
       </Box>
         <Box>
 
-          <Button w={'200px'}>Beckend dasturchilar</Button>
+          <Button className="btn" _hover={''} w={'200px'}>Beckend dasturchilar</Button>
           <Box display={'flex'}  flexWrap={'wrap'} justifyContent={'start'} mt={'18px'}   gap={{'2xl':'6rem', base: '1rem', md: '2rem'}}  alignItems={'start'}>
           <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
           <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
@@ -90,7 +87,7 @@ function Main() {
         </Box>
         <Box>
           <Box display={'flex'} flexDirection={'column'} >
-            <Button w={'200px'}>Flutter dasturchilar</Button>
+            <Button className="btn" _hover={''} w={'200px'}>Flutter dasturchilar</Button>
             <Box  display={'flex'}  flexWrap={'wrap'} justifyContent={'start'} mt={'18px'} gap={{'2xl':'6rem', base: '1rem', md:'2rem'}}  alignItems={'start'}>
           <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
           <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
@@ -103,9 +100,9 @@ function Main() {
       </Box>
    </Box>
 
+      <Teampicture/>
     </Box>
     
-      <Teampicture/>
     </Box>
    
   );

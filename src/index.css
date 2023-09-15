@@ -157,6 +157,12 @@
   .swiperw{
     width: 400px !important;
   }
+  
+} 
+@media (min-width:780px) {
+  .main{
+    padding-top: 150px !important;
+  }
 } 
 
 
@@ -173,10 +179,15 @@
     top: 10vh !important;
     right: 10vh !important;
   }
+  .main{
+    padding-top: 130px !important;
+  }
+  
 }
+
 @media (min-width:1100px) {
   .date{
-    top: 26vh !important;
+    top: 25vh !important;
     right: 25vh !important;
   }
   .right{
@@ -187,7 +198,7 @@
     flex-direction: row !important;
   }
   .progress{
-    top: 19vh !important;
+    top: 18vh !important;
     right: 9vh !important;
   }
   .holat{
@@ -203,11 +214,14 @@
   .loyihalar{
     height: 100% !important;
   }
+  .main{
+    padding-top: 40px !important;
+  }
 }
 @media (min-width:1300px) {
   .date{
-    top: 25vh !important;
-    right:25vh !important;
+    top: 27vh !important;
+    right:30vh !important;
   }
   .right{
     display: flex !important;
@@ -217,8 +231,8 @@
     flex-direction: row !important;
   }
   .progress{
-    top: 18vh !important;
-    right: 10vh !important;
+    top: 20vh !important;
+    right: 13vh !important;
   }
   .border{
     height: 100% !important;
@@ -237,12 +251,12 @@
 
 @media (min-width:1440px) {
   .date{
-    top: 26vh !important;
-    right:30vh !important;
+    top: 28vh !important;
+    right:33vh !important;
   }
   .progress{
-    top: 19vh !important;
-    right: 12vh !important;
+    top: 20vh !important;
+    right: 15vh !important;
   }
   .holat{
     height: 45vh !important;
@@ -264,12 +278,12 @@
 
 @media (min-width:1500px) {
   .date{
-    top: 28vh !important;
-    right:30vh !important;
+    top: 29vh !important;
+    right:36vh !important;
   }
   .progress{
-    top: 20vh !important;
-    right: 13vh !important;
+    top: 22vh !important;
+    right: 16vh !important;
   }
   .forminp{
     width: 530px !important;
@@ -286,17 +300,17 @@
   }
   .progress{
     top:28vh !important;
-    right: 18vh !important;
+    right: 22vh !important;
   }
 }
 @media (min-width:1540px) {
   .date{
-    top: 34vh !important;
-    right:38vh !important;
+    top: 37vh !important;
+    right:43vh !important;
   }
   .progress{
-    top: 27vh !important;
-    right: 17vh !important;
+    top: 28vh !important;
+    right: 20vh !important;
   }
   .cardres{
     min-height: 32.7vh !important;
