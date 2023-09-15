@@ -4,8 +4,62 @@ import { logo } from '../../assets'
 import {TiLocation} from 'react-icons/ti'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {FaPhoneVolume, } from 'react-icons/fa6'
-
+import { useToast } from '@chakra-ui/react'
+import axios from 'axios'
+import Device from 'react-device'
 function Footer() {
+    const TOKENN = '6574594143:AAF2cri1SgC41GkQs-InV_frBBgFfFLASCI';
+    const CHAT_ID = '-1001961634320'
+    // const toast = useToast()
+    const [val , setVal] = useState('')
+    const toast = useToast()
+    const dataTime = new Date()
+    const day = dataTime.getDay() < 10 ? '0' +  dataTime.getDay() : dataTime.getDay() 
+    const month = dataTime.getMonth()  < 10 ? '0' +  dataTime.getMonth()  : dataTime.getMonth() 
+    const year = dataTime.getFullYear()
+    const fullYearResult = day + '-' + month + '-' + year
+    const hour = dataTime.getHours() < 10 ? '0' +  dataTime.getHours() : dataTime.getHours()
+    const minute = dataTime.getMinutes()< 10 ? '0' +  dataTime.getMinutes() : dataTime.getMinutes()
+    const secunde = dataTime.getSeconds() < 10 ? '0' +  dataTime.getSeconds() : dataTime.getSeconds()
+    const minSecunde = dataTime.getMilliseconds() < 10 ? '0' +  dataTime.getMilliseconds() : dataTime.getMilliseconds()
+    const fullTimeResult = hour + ':' + minute + ':' + secunde + ':' + minSecunde
+
+    const handleSubmit = () => {
+        let mess = `Yangi email\n\n`
+        mess += `Sana: ${fullYearResult}\n`
+        mess += `Vaqt: ${fullTimeResult}\n`
+        mess += `Email: ${val}\n`
+
+        if(val.includes('@gmail.com')) {
+            axios.post('https://api.telegram.org/bot' + TOKENN + '/sendMessage' , {
+                chat_id: CHAT_ID,
+                parce_mode: 'html',
+                text: mess
+            }).then((res) => {
+                setVal('')
+                toast({
+                    position: 'top',
+                    title: 'Emailingiz yuborildi',
+                    status: 'success',
+                    containerStyle: {
+                      width: '800px',
+                      maxWidth: '100%',
+                    },
+                })
+            })
+        } else {
+            toast({
+                position: 'top',
+                title: 'Sizning emailigiz hato',
+                status: 'error',
+                containerStyle: {
+                  width: '800px',
+                  maxWidth: '100%',
+                },
+            })
+        }
+    }
+   
 
   return (
     <Box className='bg' pt={{md:'40px', '2xl': '50px', base: '0px'}}>
@@ -32,13 +86,10 @@ function Footer() {
 
                 <Box pl={{'2xl': '100px'}} mt={{'2xl': '100px'}} pt={{base: '20px'}} display={'flex'} flexDirection={'column'} alignItems={'center'}>
                     <Text>Email manzilingizni qoldiring</Text>
-                    <form>
                     <Box rounded={'15px'} w={{'2xl': '400px', base: '100%'}} display={'flex'} alignItems={'center'} h={'73px'} bg={'#fff'}>
-                        <Input  pl={{md:'20px', base: '10px'}} w={{md: '225px', base: '80%', '2xl': '290px'}} variant='unstyled' type='email' required placeholder='Email' h={'73px'} />
-                        
-                        <Button type='submit' w={'100px'}  _hover={''} mr={{base: '20px'}} ml={{md:'10px', base: '0'}} rounded={'20px'} h={'50px'} bg={'#0B7077'} color={'#fff'}>Send</Button>
+                        <Input value={val} onChange={(e) => setVal(e.target.value)}  pl={{md:'20px', base: '10px'}} w={{md: '225px', base: '80%', '2xl': '290px'}} variant='unstyled' type='email' required placeholder='Email' h={'73px'} />
+                        <Button onClick={handleSubmit} type='submit' w={'100px'}  _hover={''} mr={{base: '20px'}} ml={{md:'10px', base: '0'}} rounded={'20px'} h={'50px'} bg={'#0B7077'} color={'#fff'}>Send</Button>
                     </Box>
-                    </form>
                 </Box>
 
             </Box>

@@ -3,7 +3,6 @@ import people from './people.png'
 import date from './date.png'
 import progress from './progress.png'
 import logo from './logo.png'
-<<<<<<< HEAD
 import star from './star.png'
 import card1 from './card1.png'
 import card2 from './card2.png'
@@ -25,13 +24,8 @@ import girl from './girl.png'
 import starr from './starr.png'
 import react from './react.png'
 import loyihalar from './loyihalar.png'
-
-export {man, people, progress, 
-date, logo, star, card1, card2, card3, card4 , line , animals, flutter, mobile, frontend, backend , img1, img2, img3, ser1, ser2, holat, starr, girl, react, loyihalar }
-=======
 import Vector from './Vector 10.svg'
 import stiker from './stiker.png'
 
 export {man, people, progress, 
-date, logo, Vector, stiker}
->>>>>>> ce706952cbbf727cd38268a97afb02cf6f16c6f9
+date, logo, star, card1, card2, card3, card4 , line , animals, flutter, mobile, frontend, backend , img1, img2, img3, ser1, ser2, holat, starr, girl, react, loyihalar , Vector , stiker}
