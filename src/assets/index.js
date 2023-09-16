@@ -26,5 +26,6 @@ import react from './react.png'
 import loyihalar from './loyihalar.png'
 import Vector from './Vector 10.svg'
 import stiker from './stiker.png'
+import page from './404.png'
 export {man, people, progress, 
-date, logo, star, card1, card2, card3, card4 , line , animals, flutter, mobile, frontend, backend , img1, img2, img3, ser1, ser2, holat, starr, girl, react, loyihalar  , Vector , stiker}
+date, logo, star, card1, card2, card3, card4 , line , animals, flutter, mobile, frontend, backend , img1, img2, img3, ser1, ser2, holat, starr, girl, react, loyihalar  , Vector , stiker , page}
