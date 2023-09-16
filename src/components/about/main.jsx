@@ -17,9 +17,9 @@ function Main() {
         mb={"71px"}
       >
         <Box display={"flex"} flexDirection={"column"}>
-          <Heading color={'#FD661F'}>      
-            FULL FORCE GROUP KOMPANIYASI TARIXI
-            <Box className='line' w={{'2xl': '73%', base: '80%', md: '75%'}} display={{base: 'none',md :'none', '2xl':'flex'}}  alignItems={'flex-end'} justifyContent={'flex-end'}>
+          <Heading color={'#0B7077'}>      
+           DATA SPIN KOMPANIYASI TARIXI
+            <Box className='line' w={'67%'} display={{base: 'none',md :'none', '2xl':'flex'}}  alignItems={'flex-end'} justifyContent={'flex-end'}>
                     <Image src={line} />
                 </Box>
           </Heading>
