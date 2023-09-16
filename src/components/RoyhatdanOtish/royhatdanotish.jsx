@@ -31,7 +31,7 @@ function Royhatdanotish() {
   const isError = input === ''
   return (
     <Box>
-        <Button onClick={onOpen} _hover={{bg: '#2aacb6'}} color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button>
+        <Button onClick={onOpen} _hover={{bg: '#2aacb6'}} color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '170px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button>
 
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
