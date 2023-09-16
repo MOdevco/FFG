@@ -9,6 +9,7 @@
 
 *{
     font-family: 'Raleway', sans-serif;
+    user-select: none;
 }
 
 .imgrotate:hover{
@@ -22,6 +23,9 @@
 }
 .texts{
   scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 0;
 }
 
 .yonalish:hover{
@@ -40,13 +44,21 @@
     background: #FD661F;
     color: #FFFFFF;
 }
-
+.serchInp {
+  outline: none;
+  background: transparent;
+}
 
 .animateImg {
   animation-name: animate;
   animation-duration: 2s;
   animation-direction: alternate;
   animation-iteration-count: 100000;
+}
+
+.boxShadow:hover {
+  box-shadow: 2px 1px 4px 2px gray;
+  transition: all 0.5s;
 }
 
 

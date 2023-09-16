@@ -74,10 +74,10 @@ function Footer() {
         <Box className='border' mt={{md:'40px', '2xl': '120px'}} bg={'#D2E6E4'} pb={{md :'40px', '2xl': '0', base: '10px'}} w={'100%'} h={{'2xl': '50vh'}}>
             <Box w={{md: '80%', base: '90%'}} m={'auto'} display={'flex'} flexDirection={{lg :'row', base: 'column'}} alignItems={{'2xl':'center', base: 'left', lg: 'center'}} gap={{'2xl': '2rem', base: '20px', xl :'2rem'}} >
                 <Box pt={{'2xl':'100px', md: '60px', base: '30px'}} display={'flex'}  flexDirection={'column'} gap={{'2xl': '2rem', base: '0.5rem'}}>
-                    <Heading fontSize={{base: '30px', md: '50px'}} fontWeight={'700'}>DataSpin</Heading>
+                    <Heading fontSize={{base: '30px', md: '50px'}} fontWeight={'700'}  color={'#0B7077'}>DataSpin</Heading>
                     <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><TiLocation /> Farg’ona viloyati Quva Tumani.</Text>
                     <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><FaPhoneVolume />Tel :+99855 809  13 28</Text>
-                    <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><AiTwotoneMail />Email: full_force-group@gmail.com</Text>
+                    <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><AiTwotoneMail />Email: Data_Spin-group@gmail.com</Text>
                 </Box>
                 <Box pl={{'2xl': '180px'}} pt={{'2xl':'100px', md: '0px', lg: '70px'}} display={'flex'} flexDirection={'column'} gap={{'2xl': '1.5rem', base: '0.5rem'}}>
                     <Text color={'Shartnoma'} fontWeight={'700'}>Shartnoma</Text>
@@ -101,7 +101,7 @@ function Footer() {
                 </Box>
 
             </Box>
-            <Heading fontSize={'20px'} color={'#000000'} fontWeight={'500'} textAlign={'center'} pt={{'2xl': '120px', base: '30px'}}>Full Force Group Barcha Huquqlarda Himoyalangan</Heading>
+            <Heading fontSize={'20px'}  fontWeight={'500'} textAlign={'center'} pt={{'2xl': '120px', base: '30px'}}  color={'#0B7077'}>Data Spin Barcha Huquqlarda Himoyalangan</Heading>
         </Box>
     </Box>
   )

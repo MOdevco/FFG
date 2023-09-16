@@ -6,7 +6,7 @@ function BacendDasturchilar() {
   return (
   <Box >
    <Heading> Frontend dasturchilar</Heading>
-   <Image width={'350px'} p={} src={stiker}/>
+   <Image width={'350px'} p={'12px'} src={stiker}/>
   </Box>
   )
 }
