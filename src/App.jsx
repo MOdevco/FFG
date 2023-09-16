@@ -5,6 +5,7 @@ import About from './pages/about'
 import Loyihalar from './pages/loyihalar'
 import Aloqa from './pages/aloqa'
 import Error404 from './pages/error404'
+import Dataspinpanell from './pages/dataspinpanell'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/loyihalar' element={<Loyihalar />}  />
         <Route path='/aloqa' element={<Aloqa />}  />
         <Route path='*' element={<Error404 />}  />
+        <Route path='/dataspinpanell' element={<Dataspinpanell />}></Route>
       </Routes>
     </Box>
   )
