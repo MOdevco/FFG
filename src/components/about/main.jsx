@@ -17,13 +17,6 @@ function Main() {
         mb={"71px"}
       >
         <Box display={"flex"} flexDirection={"column"}>
-<<<<<<< HEAD
-          <Heading color={'#FD661F'}>      
-            FULL FORCE GROUP KOMPANIYASI TARIXI
-            <Box className='line' w={{'2xl': '73%', base: '80%', md: '75%'}} display={{base: 'none',md :'none', '2xl':'flex'}}  alignItems={'flex-end'} justifyContent={'flex-end'}>
-                    <Image src={line} />
-                </Box>
-=======
           <Heading position={"relative"}>      
             DATA SPIN KOMPANIYASI TARIXI
             <Image
@@ -32,7 +25,6 @@ function Main() {
               mt={"10px"}
               src={Vector}
             />
->>>>>>> 409dcd99553a60b4847ae4b5a756e20e20925cc8
           </Heading>
         </Box>
       </Box>
