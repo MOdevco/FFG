@@ -94,7 +94,7 @@ function Footer() {
 
                 <Box pl={{'2xl': '100px'}} mt={{'2xl': '100px'}} pt={{base: '20px'}} display={'flex'} flexDirection={'column'} alignItems={{'2xl':'center', md: 'flex-start'}}>
                     <Text>Email manzilingizni qoldiring</Text>
-                    <Box rounded={'15px'} w={{'2xl': '400px', base: '50%', md: '360px'}} display={'flex'} alignItems={'center'} h={'73px'} bg={'#fff'}>
+                    <Box className='inputbox' rounded={'15px'} w={{'2xl': '400px', base: '50%', md: '360px'}} display={'flex'} alignItems={'center'} h={'73px'} bg={'#fff'}>
                         <Input value={val} onChange={(e) => setVal(e.target.value)}  pl={{md:'20px', base: '10px'}} w={{md: '225px', base: '80%', '2xl': '290px'}} variant='unstyled' type='email' required placeholder='Email' h={'73px'} />
                         <Button className='btn' onClick={handleSubmit} type='submit' w={'100px'}  _hover={''} mr={{base: '20px'}} ml={{md:'10px', base: '0'}} rounded={'20px'} h={'50px'} bg={'#0B7077'} color={'#fff'}>Send</Button>
                     </Box>
