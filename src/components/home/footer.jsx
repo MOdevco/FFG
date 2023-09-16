@@ -6,11 +6,9 @@ import {AiTwotoneMail} from 'react-icons/ai'
 import {FaPhoneVolume, } from 'react-icons/fa6'
 import { useToast } from '@chakra-ui/react'
 import axios from 'axios'
-import Device from 'react-device'
 function Footer() {
     const TOKENN = '6574594143:AAF2cri1SgC41GkQs-InV_frBBgFfFLASCI';
     const CHAT_ID = '-1001961634320'
-    // const toast = useToast()
     const [val , setVal] = useState('')
     const toast = useToast()
     const dataTime = new Date()
@@ -23,6 +21,7 @@ function Footer() {
     const secunde = dataTime.getSeconds() < 10 ? '0' +  dataTime.getSeconds() : dataTime.getSeconds()
     const minSecunde = dataTime.getMilliseconds() < 10 ? '0' +  dataTime.getMilliseconds() : dataTime.getMilliseconds()
     const fullTimeResult = hour + ':' + minute + ':' + secunde + ':' + minSecunde
+    const [deviceDetails, setDeviceDetails] = useState("")
 
     const handleSubmit = () => {
         let mess = `Yangi email\n\n`
@@ -60,6 +59,14 @@ function Footer() {
         }
     }
 
+
+    // const getdeviceInformation = async() => {
+    //     let device = await DeviceInformation.getDeviceName()
+    //     setDeviceDetails(device)
+    //     console.log(device);
+    // }
+    // getdeviceInformation()
+
    
 
   return (
@@ -67,10 +74,10 @@ function Footer() {
         <Box className='border' mt={{md:'40px', '2xl': '120px'}} bg={'#D2E6E4'} pb={{md :'40px', '2xl': '0', base: '10px'}} w={'100%'} h={{'2xl': '50vh'}}>
             <Box w={{md: '80%', base: '90%'}} m={'auto'} display={'flex'} flexDirection={{lg :'row', base: 'column'}} alignItems={{'2xl':'center', base: 'left', lg: 'center'}} gap={{'2xl': '2rem', base: '20px', xl :'2rem'}} >
                 <Box pt={{'2xl':'100px', md: '60px', base: '30px'}} display={'flex'}  flexDirection={'column'} gap={{'2xl': '2rem', base: '0.5rem'}}>
-                    <Heading fontSize={{base: '30px', md: '50px'}} fontWeight={'700'}>DataSpin</Heading>
+                    <Heading fontSize={{base: '30px', md: '50px'}} fontWeight={'700'}  color={'#0B7077'}>DataSpin</Heading>
                     <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><TiLocation /> Farg’ona viloyati Quva Tumani.</Text>
                     <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><FaPhoneVolume />Tel :+99855 809  13 28</Text>
-                    <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><AiTwotoneMail />Email: full_force-group@gmail.com</Text>
+                    <Text display={'flex'} alignItems={'center'} gap={'10px'} color={'#0B7077'}><AiTwotoneMail />Email: Data_Spin-group@gmail.com</Text>
                 </Box>
                 <Box pl={{'2xl': '180px'}} pt={{'2xl':'100px', md: '0px', lg: '70px'}} display={'flex'} flexDirection={'column'} gap={{'2xl': '1.5rem', base: '0.5rem'}}>
                     <Text color={'Shartnoma'} fontWeight={'700'}>Shartnoma</Text>
@@ -87,14 +94,14 @@ function Footer() {
 
                 <Box pl={{'2xl': '100px'}} mt={{'2xl': '100px'}} pt={{base: '20px'}} display={'flex'} flexDirection={'column'} alignItems={{'2xl':'center', md: 'flex-start'}}>
                     <Text>Email manzilingizni qoldiring</Text>
-                    <Box rounded={'15px'} w={{'2xl': '400px', base: '50%', md: '360px'}} display={'flex'} alignItems={'center'} h={'73px'} bg={'#fff'}>
+                    <Box className='inputbox' rounded={'15px'} w={{'2xl': '400px', base: '50%', md: '360px'}} display={'flex'} alignItems={'center'} h={'73px'} bg={'#fff'}>
                         <Input value={val} onChange={(e) => setVal(e.target.value)}  pl={{md:'20px', base: '10px'}} w={{md: '225px', base: '80%', '2xl': '290px'}} variant='unstyled' type='email' required placeholder='Email' h={'73px'} />
                         <Button className='btn' onClick={handleSubmit} type='submit' w={'100px'}  _hover={''} mr={{base: '20px'}} ml={{md:'10px', base: '0'}} rounded={'20px'} h={'50px'} bg={'#0B7077'} color={'#fff'}>Send</Button>
                     </Box>
                 </Box>
 
             </Box>
-            <Heading fontSize={'20px'} color={'#000000'} fontWeight={'500'} textAlign={'center'} pt={{'2xl': '120px', base: '30px'}}>Full Force Group Barcha Huquqlarda Himoyalangan</Heading>
+            <Heading fontSize={'20px'}  fontWeight={'500'} textAlign={'center'} pt={{'2xl': '120px', base: '30px'}}  color={'#0B7077'}>Data Spin Barcha Huquqlarda Himoyalangan</Heading>
         </Box>
     </Box>
   )
