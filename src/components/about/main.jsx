@@ -17,22 +17,11 @@ function Main() {
         mb={"71px"}
       >
         <Box display={"flex"} flexDirection={"column"}>
-<<<<<<< HEAD
-          <Heading position={"relative"}>      
-            DATA SPIN KOMPANIYASI TARIXI
-            <Image
-              position={"absolute"}
-              right={"33%"}
-              mt={"10px"}
-              src={Vector}
-            />
-=======
           <Heading color={'#0B7077'}>      
            DATA SPIN KOMPANIYASI TARIXI
             <Box className='line' w={'67%'} display={{base: 'none',md :'none', '2xl':'flex'}}  alignItems={'flex-end'} justifyContent={'flex-end'}>
                     <Image src={line} />
                 </Box>
->>>>>>> 2f8c2cb43de2a16aa4599c14f110e127ceca5e3d
           </Heading>
         </Box>
       </Box>
