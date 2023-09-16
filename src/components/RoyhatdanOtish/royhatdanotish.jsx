@@ -1,9 +1,11 @@
-import React from 'react'
-import { Form } from 'react-router-dom'
+import { Box } from "@chakra-ui/react"
+
 
 function Royhatdanotish() {
   return (
-    <Form />
+    <Box>
+        
+    </Box>
   )
 }
 
