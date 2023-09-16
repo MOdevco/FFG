@@ -3,6 +3,7 @@
 .bg{
     background: #FBFBFB;
 }
+
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -157,11 +158,24 @@
   .swiperw{
     width: 400px !important;
   }
+  .yonalish{
+    width: 280px !important;
+  }
   
 } 
 @media (min-width:780px) {
   .main{
     padding-top: 150px !important;
+  }
+} 
+@media (min-width:768px) {
+  .main{
+    padding-top: 150px !important;
+  }
+} 
+@media (min-width:1000px) {
+  .main{
+    padding-top: 50px !important;
   }
 } 
 
@@ -181,6 +195,9 @@
   }
   .main{
     padding-top: 130px !important;
+  }
+  .shartnoma{
+    height: 20vh !important;
   }
   
 }
@@ -292,16 +309,17 @@
 
 @media (min-width:1536px) {
   .cardres{
-    min-height: 30.8vh !important;
+    min-height: 33vh !important;
   }
   .date{
     top: 36vh !important;
-    right: 40vh !important;
+    right: 43vh !important;
   }
   .progress{
     top:28vh !important;
-    right: 22vh !important;
+    right: 20vh !important;
   }
+  
 }
 @media (min-width:1540px) {
   .date{

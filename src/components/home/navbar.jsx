@@ -30,7 +30,7 @@ function Navbar({bg}) {
                     <Link to={'/loyihalar'}><Text className='animate'>Loihalar</Text></Link>
                     <Link to={'/aloqa'}><Text className='animate'>Biz bilan a’loqa</Text></Link>
                 </Box>
-                <Box><Button _hover={''} className='btn' color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
+                <Box><Button _hover={{bg: '#2aacb6'}} color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
             </Box>
         </Box>
       </Box>
@@ -55,7 +55,7 @@ function Navbar({bg}) {
                     <Link to={'/loyihalar'}><Text>Loihalar</Text></Link>
                     <Link to={'/aloqa'}><Text>Biz bilan a’loqa</Text></Link>
                 </Box>
-                <Box pt={'20px'} display={'flex'} alignItems={'center'} justifyContent={'center'}><Button color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
+                <Box pt={'20px'} display={'flex'} alignItems={'center'} justifyContent={'center'}><Button color={'#fff'} fontSize={'16px'} w={{lg:'190px', md: '150px'}} h={'48px'}  _hover={{bg: '#2aacb6'}} bg={'#0B7077'}>Ro’yhatdan o’tish</Button></Box>
               </DrawerBody>
             </DrawerContent>
           </Drawer>

@@ -6,11 +6,9 @@ import {AiTwotoneMail} from 'react-icons/ai'
 import {FaPhoneVolume, } from 'react-icons/fa6'
 import { useToast } from '@chakra-ui/react'
 import axios from 'axios'
-import Device from 'react-device'
 function Footer() {
     const TOKENN = '6574594143:AAF2cri1SgC41GkQs-InV_frBBgFfFLASCI';
     const CHAT_ID = '-1001961634320'
-    // const toast = useToast()
     const [val , setVal] = useState('')
     const toast = useToast()
     const dataTime = new Date()
@@ -23,6 +21,7 @@ function Footer() {
     const secunde = dataTime.getSeconds() < 10 ? '0' +  dataTime.getSeconds() : dataTime.getSeconds()
     const minSecunde = dataTime.getMilliseconds() < 10 ? '0' +  dataTime.getMilliseconds() : dataTime.getMilliseconds()
     const fullTimeResult = hour + ':' + minute + ':' + secunde + ':' + minSecunde
+    const [deviceDetails, setDeviceDetails] = useState("")
 
     const handleSubmit = () => {
         let mess = `Yangi email\n\n`
@@ -59,6 +58,14 @@ function Footer() {
             })
         }
     }
+
+
+    // const getdeviceInformation = async() => {
+    //     let device = await DeviceInformation.getDeviceName()
+    //     setDeviceDetails(device)
+    //     console.log(device);
+    // }
+    // getdeviceInformation()
 
    
 

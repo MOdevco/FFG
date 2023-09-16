@@ -5,7 +5,7 @@ import { line } from '../../assets'
 function Form() {
   return (
     <Box bg={'#FBFBFB'} w={'100%'}>
-        <Box pt={'50px'} w={{md:'90%', base: '90%', lg: '80%'}} m={'auto'} h={'100%'} pb={{md:'40px', '2xl':'20px', base :'40px'}}>
+        <Box pt={'150px'} w={{md:'90%', base: '90%', lg: '80%'}} m={'auto'} h={'100%'} pb={{md:'40px', '2xl':'20px', base :'40px'}}>
         <Heading textAlign={'center'}  fontSize={{md: '45px', base: '30px'}} color={'#FD661F'} fontWeight={{base :'400', md: '700'}}>BIZ BILAN A’LOQA</Heading>
         <Box pb={{sm: '40px'}} className='line4'  w={{base: '80%', lg: '62%', md: '77%'}} display={'flex'} alignItems={{md:'center', base: 'flex-end'}} justifyContent={{md:'flex-end', base: 'flex-end'}}>
                 <Image src={line} />
