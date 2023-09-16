@@ -17,10 +17,10 @@ function Main() {
         mb={"71px"}
       >
         <Box display={"flex"} flexDirection={"column"}>
-          <Heading color={'#0B7077'}>      
+          <Heading color={'#FD661F'}  >       
            DATA SPIN KOMPANIYASI TARIXI
             <Box className='line' w={'67%'} display={{base: 'none',md :'none', '2xl':'flex'}}  alignItems={'flex-end'} justifyContent={'flex-end'}>
-                    <Image src={line} />
+                    <Image src={line} mt={'12px'} />
                 </Box>
           </Heading>
         </Box>
@@ -64,7 +64,7 @@ function Main() {
       <Box  pt={'50px'}>
     <Box textAlign={'center'} mb={'71px'} color={"#0B7077"} fontSize={"40px"}   fontWeight={"700"} >
       <Box display={'flex'} flexDirection={'column'}>
-        <Heading position={'relative'}> DATA SPIN KOMPANIYASI TARIXI
+        <Heading position={'relative'} mt={'50px'} color={'#FD661F'}> DATA SPIN KOMPANIYASI TARIXI
           <Image position={'absolute'}    bottom={-5} right={'35%'} mt={'30px'}   src={Vector}/> </Heading>
       </Box>
     </Box>

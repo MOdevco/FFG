@@ -8,7 +8,7 @@ function Aboutcard({name, title, text, p,  }) {
     <Box className='loyihacards' borderRadius={'14px'} w={'310px'}>
         <>
         <Box>
-            <Image borderTopRadius={'14px'} src={stiker} />
+            <Image borderTopRadius={'14px'}   src={stiker} />
         </Box>
         <Box boxShadow='xs' borderRadius={'14px'}>
 
