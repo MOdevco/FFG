@@ -71,7 +71,7 @@ function Main() {
     
     <Box className="aboutcards1"><Button className="btn" _hover={''} p={'20px'}>Frontend Dasturchilar</Button></Box>
       <Box display={'flex'} flexDirection={'column'} gap={{'2xl': '4rem', md: '2rem', base: '1rem'}}>
-      <Box display={'flex'} className="wrapper aboutcards1" flexWrap={'wrap'} justifyContent={'start'} mt={'18px'}   gap={'34px'}  alignItems={'start'}>
+      <Box display={'flex'} className="wrapper aboutcards1" flexWrap={'wrap'} justifyContent={'space-between'}  mt={'18px'}   alignItems={'start'}>
         <Aboutcard    name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
         <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />
         <Aboutcard  name={"Muhammadali Anvarov"}    title={"Frontend dasturchi"}     text={"Texnalogiya React js +"}     p={   "Abdulaziz Xoldorov frontend dasturchi yoshi 18da 2yildan beri frontend yonalishi bo’licha ishlaydi 5dan ortik loihalarda qatnashgan.."  }   />

@@ -170,6 +170,7 @@
     width: 90% !important;
   }
 }
+
 @media (max-width: 450px) {
   .aboutcards1{
     display: flex !important;
@@ -185,6 +186,13 @@
   .swiperimg{
     width: 60% !important;
   }
+  .imgloyiha{
+    width: 75% !important;
+  }
+  .cardloyiha{
+    width: 300px !important;
+  }
+  
   .swiperw{
     width: 400px !important;
   }
@@ -201,6 +209,7 @@
   .main{
     padding-top: 100px !important;
   }
+
 } 
 @media (min-width:768px) {
   .main{
