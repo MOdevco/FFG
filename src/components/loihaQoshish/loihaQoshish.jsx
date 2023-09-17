@@ -32,7 +32,8 @@ const LoihaQoshish = () => {
             <ModalCloseButton />
             <ModalBody pb={6}>
                 <FormControl>
-                    <FormLabel>Rasmi</FormLabel>
+                    <FormLabel>Rasmi
+                    </FormLabel>
                     <Input type={'url'} ref={initialRef} placeholder='rasim...' />
                 </FormControl>
 

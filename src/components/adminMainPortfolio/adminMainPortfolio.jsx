@@ -2,7 +2,7 @@ import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 import PortfolioCard from '../portfolioCard/portfolioCard'
 
-const AdminMainPortfolio = () => {
+const   AdminMainPortfolio = () => {
   return (
     <Box>
         <Box>

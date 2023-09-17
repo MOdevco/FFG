@@ -2,7 +2,7 @@ import { Box, Button, Image, Text, useDisclosure } from '@chakra-ui/react'
 import React, { useState } from 'react'
 // import { HiMiniBars3 } from 'react-icons/fa';
 import { logo } from '../../assets'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import {
   Drawer,
   DrawerBody,
@@ -36,10 +36,10 @@ function Navbar({bg}) {
             <Box display={'flex'} alignItems={'center'} minH={'10vh'} justifyContent={'space-between'} maxW={{'2xl':'80%', base: '80%', md: '90%', lg: '80%'}} m={'auto'}>
                 <Link to={'/'} className='imgrotate'><Text color={'#0B7077'}  fontWeight={'bold'} fontSize={'30px'}>Data Spin</Text></Link>
                 <Box fontWeight={'700'} gap={{'2xl':'3em', md: '1rem'}} display={'flex'} alignItems={'center'} color={'#252641'} fontSize={{'2xl':'20px', lg: '17px'}}>
-                    <Link to={'/'}><Text className='animate'>Asosiy</Text></Link>
-                    <Link to={'/about'}><Text className='animate'>Biz haqimizda</Text></Link>
-                    <Link to={'/loyihalar'}><Text className='animate'>Loihalar</Text></Link>
-                    <Link to={'/aloqa'}><Text className='animate'>Biz bilan a’loqa</Text></Link>
+                    <NavLink to={'/'}><Text className='animate'>Asosiy</Text></NavLink>
+                    <NavLink to={'/about'}><Text className='animate'>Biz haqimizda</Text></NavLink>
+                    <NavLink to={'/loyihalar'}><Text className='animate'>Loihalar</Text></NavLink>
+                    <NavLink to={'/aloqa'}><Text className='animate'>Biz bilan a’loqa</Text></NavLink>
                 </Box>
                 
                 <Box><Royhatdanotish /></Box>

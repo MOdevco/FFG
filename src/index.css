@@ -211,11 +211,16 @@
   .yonalish{
     width: 280px !important;
   }
+  .gap{
+    gap: 1rem;
+  }
   .texts{
     height: 60vh !important;
   }
-  
 } 
+.active{
+  color: #FD661F;
+}
 
 @media (min-width:780px) {
   .main{
