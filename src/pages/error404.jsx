@@ -6,7 +6,7 @@ import { page } from '../assets'
 function Error404() {
   return (
     <Box bg={'#070229'} width={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'} height={'100vh'}>
-        <Box display={'flex'}>
+        <Box display={'flex'} width={{md:'100%', base: '90%'}} m={{base: 'auto'}} flexDirection={{base: 'column', md: 'row'}}>
             <Box display={'flex'} flexDirection={'column'} gap={'20px'}>
               <Box>
                 <Heading fontSize={'50px'} fontWeight={'bold'} color={'white'}>DataSpin</Heading>
